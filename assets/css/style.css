@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+:root {
+  --primary-color: rgb(17, 86, 102);
+  --primary-color-darker: rgb(9, 48, 56);
+}
+
+* {
+  box-sizing: border-box;
+  outline: 0;
+  list-style: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #31073F;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='250' height='250' viewBox='0 0 20 20'%3E%3Cg %3E%3Cpolygon fill='%2364156C' points='20 10 10 0 0 0 20 20'/%3E%3Cpolygon fill='%2364156C' points='0 10 0 20 10 20'/%3E%3C/g%3E%3C/svg%3E");
+  font-family: 'Open sans', sans-serif;
+  font-size: 1.3em;
+  line-height: 1.5em;
+}
+
+.container {
+  max-width: 640px;
+  margin: 50px auto;
+  background: white ;
+  padding: 20px;
+  border-radius: 10px;
+  border: solid black 2px;
+}
+
+.container div{
+  display: flex;
+  align-items: baseline;
+  gap: 60px;
+ 
+}
+
+
+
+form input, form label, form button, .paragrafo-resultado, .bad{
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 3px;
+}
+
+form input {
+  font-size: 24px;
+  height: 50px;
+  padding: 0 20px;
+}
+
+form input:focus {
+  outline: 1px solid var(--primary-color);
+}
+
+form button {
+  border: none;
+  background: var(--primary-color);
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  height: 50px;
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+form button:hover {
+  background: var(--primary-color-darker);
+}
+
+.h3{
+  color: #ff030300;
+  font-size: 24px;
+  border: solid black 2px;
+  padding: 2px;
+}
+
+
+
+.paragrafo-resultado{
+  background-color: #269667;
+
+}
+
+.bad{
+  background-color: rgb(238, 130, 130);
+}
+
